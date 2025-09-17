@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BackendCodeEditorSettings">
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=733AC39E_002DE500_002D5E98_002DB7E4_002D7EE4476D59C2_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=D8D60B00_002DC1A4_002D57BE_002D8A4A_002D142BA3F7BF44_002Fd_003Asrc_002Ff_003AFunctions_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=D8D60B00_002DC1A4_002D57BE_002D8A4A_002D142BA3F7BF44_002Fd_003Asrc_002Ff_003AOverloads_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=D8D60B00_002DC1A4_002D57BE_002D8A4A_002D142BA3F7BF44_002Fd_003Asrc_002Ff_003AOverloads_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=D8D60B00_002DC1A4_002D57BE_002D8A4A_002D142BA3F7BF44_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=A3672FA5_002D5061_002D58B7_002DA4E9_002DC7BED8E311A8_002Fd_003Asrc_002Ff_003AFunctions_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=A3672FA5_002D5061_002D58B7_002DA4E9_002DC7BED8E311A8_002Fd_003Asrc_002Ff_003AFunctions_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=A3672FA5_002D5061_002D58B7_002DA4E9_002DC7BED8E311A8_002Fd_003Asrc_002Ff_003AUtils_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=A3672FA5_002D5061_002D58B7_002DA4E9_002DC7BED8E311A8_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeStyle/CodeFormatting/CppClangFormat/EnableClangFormatSupport/@EntryValue" value="false" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/ALIGN_MULTILINE_ARGUMENT/@EntryValue" value="true" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/ALIGN_MULTILINE_BINARY_EXPRESSIONS_CHAIN/@EntryValue" value="true" type="bool" />
