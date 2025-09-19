@@ -5,7 +5,11 @@
 #include "fstream"
 #include "cstring"
 #include "cmath"
-
+#define MAX_PALABRA 250
+#define INCREMENTO 9
+enum REGISTRO_PRODUCTOS{CODIGO,DESCRIPCION,PRECIO,TIPO};
+enum REGISTRO_CLIENTES{DNI,NOMBRE,PEDIDOS,CREDITO};
+enum REGISTRO_PEDIDOS{CODIGOPRODUCTO,CANTIDAD,TOTAL};
 using namespace std;
 
 #endif //LAB04_2023_2_UTILS_HPP

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BackendCodeEditorSettings">
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=B3BAC107_002DADD9_002D5541_002D9817_002D1A795CC16930_002Fd_003Asrc_002Ff_003AFunctions_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=B3BAC107_002DADD9_002D5541_002D9817_002D1A795CC16930_002Fd_003Asrc_002Ff_003AFunctions_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=B3BAC107_002DADD9_002D5541_002D9817_002D1A795CC16930_002Fd_003Asrc_002Ff_003AUtils_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=B3BAC107_002DADD9_002D5541_002D9817_002D1A795CC16930_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
