@@ -29,6 +29,7 @@ void Heroe::get_nombre(char* nombre) const {
     else strcpy(nombre, this->nombre);
 }
 
+
 void Heroe::set_nombre(const char *nombre) {
     if (this->nombre != nullptr) delete this->nombre;//para borrar todo lo que no sea nullptr
     this->nombre = new char[strlen(nombre) + 1];
