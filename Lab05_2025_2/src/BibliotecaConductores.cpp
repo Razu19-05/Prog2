@@ -12,19 +12,34 @@ void *leeConductores(ifstream &input) {
     // 12270502,CUEVA FUENTES CINTHIA DELIA
     int *licencia = new int();
     char *nombre;
-    input>>*licencia;
-    if (input.eof())return nullptr;
+
+    input >> *licencia;
+    if (input.eof()) return nullptr;
     input.get();
-    nombre = leerCadena(input,'\n');
-    //registro inicial
+    nombre = leerCadena(input, '\n');
+
+    // === Registro original ===
     void **registro = new void*[4]{};
     registro[LICENCIA] = licencia;
     registro[NOMBRE] = nombre;
     registro[ARR] = nullptr;
-    void **lista = new void*[1]{};
-    registro[LISTA] = lista;
-    //registro Aux
-    return registro;
+    registro[LISTA] = new void*[1]{};
+
+    // === Registro clonado ===
+    void **regisAux = new void*[4]{};
+
+    int *ptrLicencia = new int(*licencia);       // copia del valor
+    char *ptrNombre = new char[strlen(nombre)+1];
+    strcpy(ptrNombre, nombre);
+
+    regisAux[LICENCIA] = ptrLicencia;
+    regisAux[NOMBRE]   = ptrNombre;
+    regisAux[ARR]      = nullptr;
+    regisAux[LISTA]    = new void*[1]{};
+
+    // Aquí decides qué devolver:
+    // return registro;   // devuelves el original
+    return regisAux;
 }
 
 int cmpConductores (void* dato, void*registro) {
